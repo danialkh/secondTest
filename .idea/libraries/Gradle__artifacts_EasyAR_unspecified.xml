@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:EasyAR:unspecified">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/EasyAR/build/.transforms/571239451d7afbe4675ad50ad4640b19/jetified-EasyAR/res" />
+      <root url="file://$PROJECT_DIR$/EasyAR/build/.transforms/33bc911276e23bf3afe5b196b7c33243/jetified-EasyAR/res" />
+      <root url="file://$PROJECT_DIR$/EasyAR/build/.transforms/6ff0110e1bad8890b3a5c23b986779c5/jetified-EasyAR/res" />
+      <root url="jar://$PROJECT_DIR$/EasyAR/build/.transforms/6ff0110e1bad8890b3a5c23b986779c5/jetified-EasyAR/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/EasyAR/build/.transforms/6ff0110e1bad8890b3a5c23b986779c5/jetified-EasyAR/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

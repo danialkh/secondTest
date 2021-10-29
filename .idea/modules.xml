@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Notopia-android.iml" filepath="$PROJECT_DIR$/.idea/modules/Notopia-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyAR/Notopia-android.EasyAR.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyAR/Notopia-android.EasyAR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Notopia-android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Notopia-android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/openCVLibrary310/Notopia-android.openCVLibrary310.iml" filepath="$PROJECT_DIR$/.idea/modules/openCVLibrary310/Notopia-android.openCVLibrary310.iml" />
+    </modules>
+  </component>
+</project>

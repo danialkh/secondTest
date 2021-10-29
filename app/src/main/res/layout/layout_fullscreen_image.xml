@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ful"
+    android:background="@color/colorGraybackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:background="@color/colorthemeBlue"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/doc_date_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_calendar"
+
+            android:gravity="left|center_horizontal"
+
+            android:layout_marginRight="100dp"
+            android:fontFamily="@font/ir_sans"
+
+            android:text="1398/10/15" />
+
+        <Spinner
+            android:id="@+id/doc_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="0dp"
+            android:drawableStart="@drawable/ic_category"
+            android:fontFamily="@font/ir_sans"
+            android:gravity="right|center_horizontal" />
+
+    </LinearLayout>
+
+    <com.ortiz.touchview.TouchImageView
+        android:id="@+id/imgDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bottombar"
+        android:layout_below="@id/topbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:scaleType="fitCenter"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <!--    <LinearLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginBottom="0dp"-->
+    <!--        android:background="#CC4CAF50">-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/image_details"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:gravity="center"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:text="Category: None    Date:98/08/27" />-->
+    <!--    </LinearLayout>-->
+    <LinearLayout
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@color/colorthemeBlue"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/doc_save"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_save"
+            android:gravity="center|center_horizontal"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/doc_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/ic_delete"
+            android:gravity="center|center_horizontal"
+            />
+
+        <ImageView
+            android:id="@+id/doc_rotate"
+            android:layout_width="10dp"
+            android:layout_height="22dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_rotate"
+            android:gravity="center|center_horizontal"
+            app:tint="@color/black"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+</RelativeLayout>
