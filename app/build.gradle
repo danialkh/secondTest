@@ -1,7 +1,28 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'com.google.gms.google-services'
+apply plugin: 'maven-publish'
 
+subprojects {
+    apply plugin: "maven-publish"
+    publishing {
+        repositories {
+            maven {
+                name = "danialkh"
+                url = uri("https://maven.pkg.github.com/danialkh/secondTest")
+                credentials {
+                    username = "danialkh"
+                    password = "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"
+                }
+            }
+        }
+        publications {
+            gpr(MavenPublication) {
+                from(components.java)
+            }
+        }
+    }
+}
 android {
     compileSdkVersion 29
     defaultConfig {
