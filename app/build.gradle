@@ -9,7 +9,7 @@ subprojects {
         repositories {
             maven {
                 name = "danialkh"
-                url = uri("https://maven.pkg.github.com/danialkh/secondTest")
+                url = uri("https://maven.pkg.github.com/danialkh/secondtest")
                 credentials {
                     username = "danialkh"
                     password = "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"
